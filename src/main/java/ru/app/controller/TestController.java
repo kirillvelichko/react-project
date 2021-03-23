@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("")
+    @GetMapping("/test")
     public String test() {
-        return """
-                Test text blocking""";
+        return "test 123";
     }
 }

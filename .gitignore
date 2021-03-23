@@ -1,6 +1,12 @@
-# idea
+#idea
 /.idea
 *.iml
 
-# maven
+#maven
 /target
+
+#front
+/src/main/front/.cache/
+/src/main/front/dist/
+/src/main/front/node_modules/
+/src/main/front/node
